@@ -9,3 +9,6 @@ header{
 p{
   color:#FFFFFF;
 }
+@-ms-viewport{
+  width: device-width;
+}

@@ -8,10 +8,12 @@ header{
 }
 nav{
   display:block;
-  list-style-type:none;
-  position:fixed;
+  position:sticky;
   padding:0px;
   float:center;
+}
+nav ul{
+  list-style-type:none;
 }
 img {
   max-width: 100%;

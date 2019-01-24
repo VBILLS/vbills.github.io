@@ -12,29 +12,36 @@ header img{
 }
 nav ul{
   list-style-type:none;
-  width:100%;
   display:flex;
   justify-content:center;
+  border-top:1px solid #FFF;
+  border-bottom:1px solid #FFF;
 }
 nav li{
   margin:0 10px;
   align-text:center;
+  float:left;
+  display:inline;
+  margin:0 5px;
+  padding:2px;
 }
-nav a{
+nav li a{
   color:#25064E;
   text-decoration:none;
-  background-color:#FFFFFF;
-  padding:1rem;
+  background-color:#d4b8fa;
   display:block;
+  padding:5px;
+  background-color:#d4b8fa;
+  border-radius:5px;
 }
 a:hover{
   color:#d4b8fa;
   background-color:#25064e;
 }
 @-ms-viewport{
-  width: device-width;
+  width:device-width;
 }
-#main a{
+main a{
   color:#d4b8fa;
   font-style:italic;
   text-decoration:none;

@@ -2,31 +2,52 @@ body{
   background-color:#25064e;
   color:#FFFFFF;
 }
-header{
-  display:flex;
-  align-content:center;
-}
-nav{
+header img{
   display:block;
-  position:sticky;
-  padding:0px;
-  float:center;
+  width:75%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
 }
 nav ul{
   list-style-type:none;
+  display:flex;
+  justify-content:center;
+  border-top:1px solid #FFF;
+  border-bottom:1px solid #FFF;
+}
+nav li{
+  margin:0 10px;
+  align-text:center;
+  float:left;
   display:inline;
+  margin:0 5px;
+  padding:2px;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+nav li a{
+  color:#25064E;
+  text-decoration:none;
+  background-color:#d4b8fa;
+  display:block;
+  padding:5px;
+  background-color:#d4b8fa;
+  border-radius:5px;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+a:hover{
+  color:#d4b8fa;
+  background-color:#25064e;
 }
 @-ms-viewport{
-  width: device-width;
+  width:device-width;
+}
+main a{
+  color:#d4b8fa;
+  font-style:italic;
+  text-decoration:none;
+}
+hr{
+  margin:0;
+  color:#FFFFFF;
+  border-top:1px;
 }
